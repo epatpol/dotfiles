@@ -4,13 +4,12 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+execute pathogen#infect()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-call vundle#end()            " required
-filetype plugin indent on    " required
 
 Bundle 'ntpeters/vim-better-whitespace'
 
@@ -18,7 +17,8 @@ set guioptions+=a
 set clipboard=unnamedplus
 syntax on
 set hlsearch
+set incsearch
 set number
 set autoindent
 set mouse=a
-
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab

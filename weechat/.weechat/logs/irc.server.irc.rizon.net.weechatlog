@@ -1,0 +1,99 @@
+2015-07-16 23:50:02	--	irc: connecting to server irc.rizon.net/6667...
+2015-07-16 23:50:02	--	irc: connected to irc.rizon.net/6667 (178.32.240.97)
+2015-07-16 23:50:02	--	* :Please wait while we process your connection.
+2015-07-16 23:50:02	--	irc.vmnode.pw: *** Looking up your hostname...
+2015-07-16 23:50:02	--	irc.vmnode.pw: *** Checking Ident
+2015-07-16 23:50:03	--	irc.vmnode.pw: *** Found your hostname
+2015-07-16 23:50:04	--	irc.vmnode.pw: *** No Ident response
+2015-07-16 23:50:04	--	irc.vmnode.pw: *** Your host is masked (Rizon-D83F320.cpe.teksavvy.com)
+2015-07-16 23:50:04	--	Welcome to the Rizon Internet Relay Chat Network papol
+2015-07-16 23:50:04	--	MSG(nickserv): id **************
+2015-07-16 23:50:04	--	Your host is irc.vmnode.pw, running version hybrid-7.2.3+plexus-3.1.0(20141225_0-545)
+2015-07-16 23:50:04	--	This server was created Jan 21 2015 at 07:46:03
+2015-07-16 23:50:04	--	irc.vmnode.pw hybrid-7.2.3+plexus-3.1.0(20141225_0-545) CDFGNRSUWXabcdfgijklnopqrsuwxyz BIMNORSabcehiklmnopqstvz Iabehkloqv
+2015-07-16 23:50:04	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 TOPICLEN=390 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ NETWORK=Rizon MAXLIST=beI:250 TARGMAX=ACCEPT:,KICK:1,LIST:1,NAMES:1,NOTICE:4,PRIVMSG:4,WHOIS:1 CHANTYPES=# :are supported by this server
+2015-07-16 23:50:04	--	CHANLIMIT=#:75 CHANNELLEN=50 CHANMODES=beI,k,l,BCMNORScimnpstz KNOCK FNC AWAYLEN=160 NAMESX UHNAMES ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2015-07-16 23:50:04	--	10CAAFY7C :your unique ID
+2015-07-16 23:50:04	--	There are 29 users and 22365 invisible on 16 servers
+2015-07-16 23:50:04	--	62 :IRC Operators online
+2015-07-16 23:50:04	--	5 :unknown connection(s)
+2015-07-16 23:50:04	--	19947 :channels formed
+2015-07-16 23:50:04	--	I have 22394 clients and 16 servers
+2015-07-16 23:50:04	--	22394 26401 :Current local users 22394, max 26401
+2015-07-16 23:50:04	--	22394 26401 :Current global users 22394, max 26401
+2015-07-16 23:50:04	--	- irc.vmnode.pw Message of the Day -
+2015-07-16 23:50:04	--	-          oo                            
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- 88d888b. dP d888888b .d8888b. 88d888b. 
+2015-07-16 23:50:04	--	- 88'  `88 88    .d8P' 88'  `88 88'  `88 
+2015-07-16 23:50:04	--	- 88       88  .Y8P    88.  .88 88    88 
+2015-07-16 23:50:04	--	- dP       dP d888888P `88888P' dP    dP
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- Rizon Chat Network -- http://rizon.net
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- Rules:
+2015-07-16 23:50:04	--	- o No spamming or flooding
+2015-07-16 23:50:04	--	- o No clones or malicious bots
+2015-07-16 23:50:04	--	- o No takeovers
+2015-07-16 23:50:04	--	- o No distribution of child pornography
+2015-07-16 23:50:04	--	- o Clients must respond to VERSION requests
+2015-07-16 23:50:04	--	- o Rizon staff may disconnect clients for any or no reason
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- First steps:
+2015-07-16 23:50:04	--	- o To register your nick: /msg NickServ HELP
+2015-07-16 23:50:04	--	- o To register your channel: /msg ChanServ HELP
+2015-07-16 23:50:04	--	- o To get a vHost: /msg HostServ HELP REQUEST
+2015-07-16 23:50:04	--	- o For other help with Rizon: /join #help
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- Usage of this network is a privilege, not a right. Rizon is a
+2015-07-16 23:50:04	--	- transit provider, therefore no person or entity involved with
+2015-07-16 23:50:04	--	- *.rizon.net or irc.vmnode.pw takes any responsibility for
+2015-07-16 23:50:04	--	- users' actions. Absolutely no warranty is expressed or implied.
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- -=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=-
+2015-07-16 23:50:04	--	- -=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=-
+2015-07-16 23:50:04	--	-                                          
+2015-07-16 23:50:04	--	- |__     ____  __ _   _           _      |
+2015-07-16 23:50:04	--	- |\ \   / /  \/  | \ | | ___   __| | ___ |
+2015-07-16 23:50:04	--	- | \ \ / /| |\/| |  \| |/ _ \ / _` |/ _ \|
+2015-07-16 23:50:04	--	- |  \ V / | |  | | |\  | (_) | (_) || __/|
+2015-07-16 23:50:04	--	- |   \_/  |_|  |_|_| \_|\___/ \__,_|\___||
+2015-07-16 23:50:04	--	- |                                       |
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- Your Hosting Headquarters!!!
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- Welcome to irc.vmnode.pw
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- == This server is hosted by VMNode - https://vmnode.pw ==
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- == This server is located in: Gravelines, France ==
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- Please visit https://vmnode.pw for our services!
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- Addresses: irc.vmnode.pw & irc6.vmnode.pw (IPv6 Only DNS)
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- -=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=-
+2015-07-16 23:50:04	--	- -=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=-
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- o Admin: NiTeMaRe/trip - nitemare@rizon.net
+2015-07-16 23:50:04	--	- o Co-Admin: Holo
+2015-07-16 23:50:04	--	- o Opers: blindsight
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- -=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=-
+2015-07-16 23:50:04	--	- -=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=-
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- Thank you for choosing/using irc.vmnode.pw
+2015-07-16 23:50:04	--	-
+2015-07-16 23:50:04	--	- -=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=-
+2015-07-16 23:50:04	--	End of /MOTD command.
+2015-07-16 23:50:04	--	User mode [+ix] by papol
+2015-07-16 23:50:04	--	Global (service@rizon.net): [Logon News - May 21 2011] First time on Rizon? Be sure to read the FAQ! http://s.rizon.net/FAQ
+2015-07-16 23:50:04	--	Global (service@rizon.net): [Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+2015-07-16 23:50:04	--	Global (service@rizon.net): [Random News - May 07 2013] Looking for a quotes, trivia, or other extra bots? /msg funserv help
+2015-07-16 23:50:04	--	CTCP requested by py-ctcp: VERSION
+2015-07-16 23:50:04	--	CTCP reply to py-ctcp: VERSION WeeChat 1.2 (Jun 14 2015)
+2015-07-16 23:50:04	--	peer (service@rizon.net): For network safety, your client is being scanned for open proxies by scanner.rizon.net (80.65.51.221). This scan will not harm your computer.
+2015-07-16 23:50:04	--	NickServ (service@rizon.net): Your nick isn't registered.
+2015-07-16 23:50:47	--	irc: disconnected from server
