@@ -1,17 +1,16 @@
-[2015-09-23 13:03:42] WeeChat 1.3 (compiled on Sep 10 2015 16:03:18)
-[2015-09-23 13:03:42] Reading configuration file sec.conf
-[2015-09-23 13:03:42] Reading configuration file weechat.conf
-[2015-09-23 13:03:42] Reading configuration file plugins.conf
-[2015-09-23 13:03:43] Reading configuration file charset.conf
-[2015-09-23 13:03:43] Reading configuration file logger.conf
-[2015-09-23 13:03:43] Reading configuration file exec.conf
-[2015-09-23 13:03:43] Reading configuration file trigger.conf
-[2015-09-23 13:03:43] Reading configuration file aspell.conf
-[2015-09-23 13:03:43] Reading configuration file alias.conf
-[2015-09-23 13:03:43] Reading configuration file xfer.conf
-[2015-09-23 13:03:43] Reading configuration file irc.conf
-[2015-09-23 13:03:43] Reading configuration file relay.conf
-[2015-09-23 13:03:43] Reading configuration file iset.conf
-[2015-09-23 13:03:43] Reading configuration file script.conf
-[2015-09-23 13:03:43] irc: connecting to server strawberry.bnc4free.com/1339 (SSL)...
-[2015-09-23 16:44:27] irc: connecting to server strawberry.bnc4free.com/1339 (SSL)...
+[2015-11-23 13:39:53] WeeChat 1.3 (compiled on Sep 10 2015 16:03:18)
+[2015-11-23 13:39:53] Reading configuration file sec.conf
+[2015-11-23 13:39:53] Reading configuration file weechat.conf
+[2015-11-23 13:39:53] Reading configuration file plugins.conf
+[2015-11-23 13:39:53] Reading configuration file charset.conf
+[2015-11-23 13:39:53] Reading configuration file logger.conf
+[2015-11-23 13:39:53] Reading configuration file exec.conf
+[2015-11-23 13:39:53] Reading configuration file trigger.conf
+[2015-11-23 13:39:53] Reading configuration file aspell.conf
+[2015-11-23 13:39:53] Reading configuration file alias.conf
+[2015-11-23 13:39:53] Reading configuration file xfer.conf
+[2015-11-23 13:39:53] Reading configuration file irc.conf
+[2015-11-23 13:39:53] Reading configuration file relay.conf
+[2015-11-23 13:39:53] Reading configuration file iset.conf
+[2015-11-23 13:39:53] Reading configuration file script.conf
+[2015-11-23 13:39:53] irc: connecting to server strawberry.bnc4free.com/1339 (SSL)...
