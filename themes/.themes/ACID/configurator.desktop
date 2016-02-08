@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=ACID Configurator
-Icon=gnome-color-manager
-Comment=Configurate the colour in the ACID GNOME-Shell theme
-Exec=sh -c "python /\$HOME/.themes/ACID/configurator/configurator.py"
-Terminal=false
-Type=Application
-Categories=GNOME;Settings;
-OnlyShowIn=GNOME;
