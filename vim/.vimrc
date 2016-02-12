@@ -1,13 +1,25 @@
+"Gui options : +a for autoselect
 set guioptions+=a
+"Acces the unnamed register when yanking
 set clipboard=unnamedplus
+"Enable syntax highlighting
 syntax on
+"Highlight matches when searching
 set hlsearch
+"Enable incremental search
 set incsearch
+"Ignore case when searching
+set ic
+"Display line numbers
 set number
+"Indents when starting a new line
 set autoindent
+"Enable mouse for normal/visual/insert/cli/help editing modes
 set mouse=a
+"Tab options
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
+"Highlight the first character that exceed column 80
 highlight ColorColumn ctermbg=magenta "set to whatever you like
 call matchadd('ColorColumn', '\%81v', 100) "set column nr
 
@@ -17,17 +29,24 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+"Insert Vundle plugins after this comment
+"Plugin to manage the vim plugins
 Plugin 'VundleVim/Vundle.vim'
+"Plugin to highlight whitespaces and fix them automatically"
 Plugin 'ntpeters/vim-better-whitespace'
+"Plugin that integrates git into the editor
 Plugin 'airblade/vim-gitgutter'
+"Plugin that integrates a file explorer into vim
 Plugin 'scrooloose/nerdTree'
+"Plugin that allows tab completion inside vim
 Plugin 'ervandew/supertab'
+"Dependencies for vim-notes
+Plugin 'xolox/vim-misc'
+"Plugin that allows vim to become an awesome note manager
+Plugin 'xolox/vim-notes'
 
-" All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Better <ESC> shortcut
+"Better <ESC> shortcut
 inoremap jk <ESC>
