@@ -48,5 +48,7 @@ Plugin 'xolox/vim-notes'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+"Better theme imo
+colorscheme slate
 "Better <ESC> shortcut
 inoremap jk <ESC>
