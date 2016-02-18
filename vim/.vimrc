@@ -1,3 +1,5 @@
+"Vim configuration file
+
 "Gui options : +a for autoselect
 set guioptions+=a
 "Acces the unnamed register when yanking
@@ -44,6 +46,8 @@ Plugin 'ervandew/supertab'
 Plugin 'xolox/vim-misc'
 "Plugin that allows vim to become an awesome note manager
 Plugin 'xolox/vim-notes'
+"Plugin that highlights css colors
+Plugin 'ap/vim-css-color'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -52,3 +56,11 @@ filetype plugin indent on    " required
 colorscheme slate
 "Better <ESC> shortcut
 inoremap jk <ESC>
+"Better split location than default
+set splitbelow
+set splitright
+"Faster split moving
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
