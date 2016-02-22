@@ -1,0 +1,10 @@
+"Configuration file for the Vrapper Eclipse Plug-in
+"Better <ESC> shortcut
+inoremap jk <ESC>
+"Highlight matches when searching
+set hlsearch
+"Enable incremental search
+set incsearch
+"Ignore case when searching
+set ic
+
