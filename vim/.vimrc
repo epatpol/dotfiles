@@ -20,6 +20,11 @@ set autoindent
 set mouse=a
 "Tab options
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+"Folding options
+set foldmethod=indent
+set foldlevel=99
+"utf-8 encoding
+set encoding=utf-8
 
 "Highlight the first character that exceed column 80
 highlight ColorColumn ctermbg=magenta "set to whatever you like
@@ -34,20 +39,35 @@ call vundle#begin()
 "Insert Vundle plugins after this comment
 "Plugin to manage the vim plugins
 Plugin 'VundleVim/Vundle.vim'
+
 "Plugin to highlight whitespaces and fix them automatically"
 Plugin 'ntpeters/vim-better-whitespace'
+
 "Plugin that integrates git into the editor
 Plugin 'airblade/vim-gitgutter'
+
 "Plugin that integrates a file explorer into vim
 Plugin 'scrooloose/nerdTree'
-"Plugin that allows tab completion inside vim
-Plugin 'ervandew/supertab'
+
+"Plugin for code-completion
+"Plugin 'Valloric/YouCompleteMe'
+let g:ycm_autoclose_preview_window_after_completion=1
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
 "Dependencies for vim-notes
 Plugin 'xolox/vim-misc'
+
 "Plugin that allows vim to become an awesome note manager
 Plugin 'xolox/vim-notes'
+
 "Plugin that highlights css colors
 Plugin 'ap/vim-css-color'
+
+"Plugin for python folding
+Plugin 'tmhedberg/SimpylFold'
+
+"Plugin for python indentation
+Plugin 'vim-scripts/indentpython.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -56,6 +76,8 @@ filetype plugin indent on    " required
 colorscheme slate
 "Better <ESC> shortcut
 inoremap jk <ESC>
+"Better folding key
+nnoremap <space> za
 "Better split location than default
 set splitbelow
 set splitright
@@ -64,3 +86,16 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+"Language specific config
+
+"Python
+au BufNewFile,BufRead *.py:
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
+
