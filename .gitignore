@@ -1,2 +1,3 @@
 */.weechat/logs/
 *.log
+weechat/.weechat/sec.conf
