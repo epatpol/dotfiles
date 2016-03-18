@@ -51,8 +51,10 @@ Plugin 'scrooloose/nerdTree'
 
 "Plugin for code-completion
 "Plugin 'Valloric/YouCompleteMe'
-let g:ycm_autoclose_preview_window_after_completion=1
-map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+"let g:ycm_autoclose_preview_window_after_completion=1
+"map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+"Plugin for python completion
+Plugin 'davidhalter/jedi-vim'
 
 "Dependencies for vim-notes
 Plugin 'xolox/vim-misc'
