@@ -76,10 +76,17 @@ filetype plugin indent on    " required
 
 "Better theme imo
 colorscheme slate
+
+""""Key mappings""""
 "Better <ESC> shortcut
 inoremap jk <ESC>
 "Better folding key
 nnoremap <space> za
+"Paranthesises, braces, brackets completion when pressing enter
+inoremap {<cr> {<cr>}<c-o>O<tab>
+inoremap [<cr> [<cr>]<c-o>O<tab>
+inoremap (<cr> (<cr>)<c-o>O<tab>
+
 "Better split location than default
 set splitbelow
 set splitright
