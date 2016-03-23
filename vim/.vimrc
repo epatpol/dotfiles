@@ -71,6 +71,12 @@ Plugin 'tmhedberg/SimpylFold'
 "Plugin for python indentation
 Plugin 'vim-scripts/indentpython.vim'
 
+"Plugin for easier xml editing
+Plugin 'sukima/xmledit'
+
+"Plugin to add brackets around highlighted text
+Plugin 'tpope/vim-surround'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
