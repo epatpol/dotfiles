@@ -49,8 +49,6 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git command-not-found sudo autojump)
 #### User configuration
 
-  export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/quest/bin:/opt/quest/sbin:/opt/elx/bin:/opt/elx/bin"
-
 # Change default editor to vim
 export EDITOR='vim'
 # export MANPATH="/usr/local/man:$MANPATH"

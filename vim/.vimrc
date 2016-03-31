@@ -104,6 +104,9 @@ nnoremap <C-H> <C-W><C-H>
 " <CTRL-l> redraws the screen and removes any search highlighting.
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
+
 "Language specific config
 
 "Python
