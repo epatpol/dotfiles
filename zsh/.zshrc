@@ -79,8 +79,8 @@ source $ZSH/oh-my-zsh.sh
 #### Aliases
 # Add alias to quick edit the zshconfig
 alias zshconfig="vim ~/.zshrc"
-# Add clc to clear the screen
-alias clc=clear
+# Add alias to quick edit the .vimrc file
+alias vimconfig="vim ~/.vimrc"
 # Add ls alias to show hidden files
 alias l.='ls -d .* --color=tty'
 
