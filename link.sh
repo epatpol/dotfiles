@@ -12,10 +12,22 @@ do
 
     PS3="Choose which dotfile you want to link: "
 
-
+    #Symlink dotfiles to the specified location
     select dotfile in ${dotfiles}
     do
-        echo "$dotfile"
+        echo -e "Where do you want to link the files? (empty for $HOME): \c"
+        read -e location 
+        if [ -z "$location" ]; then
+            location="${HOME}"
+        fi
+
+        echo "Symlinking to $location ..."
+        stow $dotfile -t $location
+        retval=$?
+
+        if [ $? -eq 0 ]; then
+            echo "Done!"
+        fi
         break
     done
 
