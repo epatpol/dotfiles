@@ -5,8 +5,7 @@ do
     dotfiles=$(find . -maxdepth 1 -not -name "." -not -name ".git" -type d -printf '%P\n')
 
     # Check if array of directory is empty
-    # FIXME haven't figured out yet why an empty array has a size of 1
-    if [ ${#dotfiles[@]} -eq 1 ]; then
+    if [[ -z "$dotfiles" ]]; then
         echo "There are no dotfiles here!"
     fi
 
@@ -22,11 +21,11 @@ do
         fi
 
         echo "Symlinking to $location ..."
-        stow $dotfile -t $location
+        stow --verbose=2 $dotfile -t $location
         retval=$?
 
         if [ $? -eq 0 ]; then
-            echo "Done!"
+            echo "$dotfile Done!"
         fi
         break
     done
