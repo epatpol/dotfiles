@@ -84,3 +84,6 @@ alias vimconfig="vim ~/.vimrc"
 # Add ls alias to show hidden files
 alias l.='ls -d .* --color=tty'
 
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+

@@ -2,15 +2,17 @@
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, Logger, LaunchpadBugURLHandler
   suppress_multiple_term_dialog = True
 [keybindings]
+  hide_window = <Primary><Alt>d
 [profiles]
   [[default]]
     use_system_font = False
+    login_shell = True
     background_darkness = 0.83
     background_type = transparent
     background_image = None
     use_custom_command = True
     show_titlebar = False
-    custom_command = /bin/zsh
+    custom_command = /bin/zsh --login
     font = Monaco 10
     scrollback_infinite = True
 [layouts]
