@@ -77,6 +77,10 @@ Plugin 'sukima/xmledit'
 "Plugin to add brackets around highlighted text
 Plugin 'tpope/vim-surround'
 
+"Plugin for markdown editing
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
