@@ -81,6 +81,9 @@ Plugin 'tpope/vim-surround'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
+"Plugin for docker syntax highlighting
+Plugin 'ekalinin/Dockerfile.vim'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
