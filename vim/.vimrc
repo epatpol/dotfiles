@@ -84,6 +84,9 @@ Plugin 'plasticboy/vim-markdown'
 "Plugin for docker syntax highlighting
 Plugin 'ekalinin/Dockerfile.vim'
 
+"Plugin for easier commenting out lines
+Plugin 'scrooloose/nerdcommenter'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 

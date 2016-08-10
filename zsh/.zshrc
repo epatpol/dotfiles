@@ -7,6 +7,9 @@
 # time that oh-my-zsh is loaded.
 ZSH_THEME="epatpol"
 
+HISTSIZE=10000000
+SAVEHIST=10000000
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -37,7 +40,7 @@ COMPLETION_WAITING_DOTS="true"
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -83,6 +86,8 @@ alias zshconfig="vim ~/.zshrc"
 alias vimconfig="vim ~/.vimrc"
 # Add ls alias to show hidden files
 alias l.='ls -d .* --color=tty'
+# Googler alias
+alias g=googler
 
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
