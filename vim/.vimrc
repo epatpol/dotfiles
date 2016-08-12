@@ -87,6 +87,9 @@ Plugin 'ekalinin/Dockerfile.vim'
 "Plugin for easier commenting out lines
 Plugin 'scrooloose/nerdcommenter'
 
+"Plugin for running flake8 on vim buffer
+Plugin 'nvie/vim-flake8'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
