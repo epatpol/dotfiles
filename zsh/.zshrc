@@ -88,6 +88,8 @@ alias vimconfig="vim ~/.vimrc"
 alias l.='ls -d .* --color=tty'
 # Googler alias
 alias g=googler
+# curl wttr.in/montreal alias
+alias wttr='curl wttr.in/montreal'
 
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
