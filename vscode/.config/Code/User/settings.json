@@ -1,0 +1,9 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.minimap.enabled": false,
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "window.zoomLevel": -1,
+    "workbench.panel.location": "bottom",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false
+}
